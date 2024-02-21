@@ -38,6 +38,8 @@ class Solution {
             return true;
         }
         
+        
+        
         for(int i=1;i<n;i++){
             // check if not sorted which means first element is greater than second
             if(arr[i-1]>arr[i]){
