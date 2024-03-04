@@ -35,18 +35,15 @@ class GFG
 
 class Solution
 {
-
     public void swapElements(int[] arr, int n)
     {
         // Code here
-        int temp;
-        for(int i = 0; i<n-2 ; i++){
-            temp = arr[i+2];
-            arr[i+2] = arr[i];
-            arr[i] = temp;
+                // Code here
+        for(int i=0; i+2<n; i++){
+        
+            int temp = arr[i];
+            arr[i] = arr[i+2];
+            arr[i+2] = temp;
         }
-        
-        
-        
     }
 }
